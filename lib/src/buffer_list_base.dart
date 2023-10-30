@@ -56,7 +56,7 @@ class BufferList {
       final offset = _offset(index)!;
       return _bufs[offset[0]][offset[1]];
     } catch (e) {
-      rethrow;
+      return -1;
     }
   }
 
