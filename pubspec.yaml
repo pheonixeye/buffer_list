@@ -1,5 +1,5 @@
 name: buffer_list
-description: A starting point for Dart libraries or applications.
+description: BufferList JS implementation in Dart.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
@@ -9,6 +9,8 @@ environment:
 # Add regular dependencies here.
 dependencies:
   # path: ^1.8.0
+  magic_buffer_copy:
+    path: c:/users/kareemzaher/desktop/darTedious/magic_buffer_copy
 
 dev_dependencies:
   lints: ^2.0.0
